@@ -4,7 +4,7 @@
 2. sudo apt install build-essential cmake python3-dev
 3. gedit ~/.vimrc
 
-'''VimL Script
+```VimL Script
 set nocompatible              " required
 filetype off                  " required
 
@@ -18,7 +18,7 @@ Bundle 'Valloric/YouCompleteMe'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
-'''
+```
 
 4. vim -> :PluginInstall
 5. cd ~/.vim/bundle/YouCompleteMe && ./install.py
